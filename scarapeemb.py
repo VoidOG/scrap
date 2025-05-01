@@ -22,8 +22,8 @@ api_id = 11573285
 api_hash = 'f2cc3fdc32197c8fbaae9d0bf69d2033'
 #Aim
 session_input = 'BQFYX_AAbZnjF8c7btbpraYFUvol58dj9S-BYFPYhsDY3NVBZuYd800uFHoNQv3UjkS2YUMZ9lNyWfR4h0D3hO-H2bLfil8IyqOzceDR74X7b8AdKymTOVhvFfBRs5KIWZcdnGOSB4F3qOHSyxt-0v5akXZnmKxb49NRKTYWWb7EIRT4m0uy5iox0SDCr2-dOspjDrie3ifHFneGPRRqLImya6Z2pPt7oos30QLgEk3Ptayf3pD47omjiwrK-eWpF9-iAvPGgk8djd27P6JoSaIm2l6hcBxOjqXV1kTUTa3Fn63DO0MSsiyjaYmxnse-5ocV6i04QcN7_a-JUtgbMxHn6dN6fgAAAAG3JYn-AA'
-target_group_id = "https://t.me/+drtjD3_QVhY5M2Vl"
-destination_channel_id = -1002515286715
+target_group_id = "https://t.me/+F9Pp5_gHDB9jYzQ1"
+destination_channel_id = -1002532796423
 
 def convert_pyrogram_session(session):
     pyro_format = {
@@ -135,8 +135,8 @@ async def main():
     )
 
     await client.start()
-    # await scrape_members_and_send(client)
-    await scrape_unhide_and_send(client)
+    await scrape_members_and_send(client)
+    # await scrape_unhide_and_send(client)
     logging.info("Bot started successfully.")
 
 # Run the bot
