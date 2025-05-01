@@ -135,8 +135,8 @@ async def main():
     )
 
     await client.start()
-    await scrape_members_and_send(client)
-    # await scrape_unhide_and_send(client)
+    # await scrape_members_and_send(client)
+    await scrape_unhide_and_send(client)
     logging.info("Bot started successfully.")
 
 # Run the bot
