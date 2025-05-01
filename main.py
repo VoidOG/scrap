@@ -106,7 +106,7 @@ async def scrape_unhide_and_send(client):
     logging.info(f"Scraping unhidden members from group {entity.title} via messages...")
 
     members = []
-    async for message in client.iter_messages(entity, limit=10000):
+    async for message in client.iter_messages(entity, limit=100000):
         if message.sender_id:
             try:
                 user = await client.get_entity(message.sender_id)
