@@ -22,7 +22,7 @@ api_id = 11573285
 api_hash = 'f2cc3fdc32197c8fbaae9d0bf69d2033'
 #Aim
 session_input = 'BQFYX_AAbZnjF8c7btbpraYFUvol58dj9S-BYFPYhsDY3NVBZuYd800uFHoNQv3UjkS2YUMZ9lNyWfR4h0D3hO-H2bLfil8IyqOzceDR74X7b8AdKymTOVhvFfBRs5KIWZcdnGOSB4F3qOHSyxt-0v5akXZnmKxb49NRKTYWWb7EIRT4m0uy5iox0SDCr2-dOspjDrie3ifHFneGPRRqLImya6Z2pPt7oos30QLgEk3Ptayf3pD47omjiwrK-eWpF9-iAvPGgk8djd27P6JoSaIm2l6hcBxOjqXV1kTUTa3Fn63DO0MSsiyjaYmxnse-5ocV6i04QcN7_a-JUtgbMxHn6dN6fgAAAAG3JYn-AA'
-target_group_id = "https://t.me/+fVQoQOp9aD83ZGRl"
+target_group_id = "https://t.me/+akyPYfi-PiU5NjY1"
 destination_channel_id = -1002532796423
 
 def convert_pyrogram_session(session):
